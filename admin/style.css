@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh; 
+    background-color: #2E8B57;
+    background-size: cover ; 
+    background-position: center; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.wrapper {
+    scale: 50%;
+    position: relative; 
+    border: none;
+     border-radius: 50px; 
+     align-items: center;
+    width: 1010px;
+    height: 1010px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.form-box h2 {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: lighter;
+    color: #000000;
+    text-align: center;
+    }
+    .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 75px ;
+}
+.form-box h3 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    }
+    .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 75px ;
+
+}
+.input-box input{ 
+   
+    padding: 20px;
+    width: 800px; 
+    height: 100px; 
+    background: transparent; 
+    font-size: 32px;
+    border: 4px solid#C0C0C0; 
+    border-radius: 25px; 
+    
+    
+}
+
+.input-box input::placeholder{ 
+    font-style: normal;
+    font-size: 32px;
+    color: #C0C0C0;
+}
+
+.remember-forgot{
+    font-size: 26px;
+    color: #000000;
+    font-style: italic;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot a {
+    color: #000000; text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    padding: 20px;
+    width: 800px; 
+    height: 100px; 
+    background: #2E8B57;
+    border:transparent;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    font-weight:lighter;
+    font-size: 32px;
+    color: #fff;
+    margin-left: 80px;
+    margin-top: 40px;
+   
+}
+.btn:hover{
+    background: transparent;
+    font-weight: bolder;
+    color: #062506;
+    background: #90EE90;
+}
+.login-register{
+    font-size: 26px;
+    color: #000000;
+    font-style: italic;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    margin-left: 300px;
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.register-link{
+    color: #000000;
+    text-decoration: none;
+}
+.register-link:hover{
+    text-decoration: underline;
+}
+.logo img{
+    user-select: none;
+    width: 130px;
+    height: auto;
+    margin-left: 430px;
+}
+/* CSS for the select element within .selector-box */
+
+  
+  /* Style for select element when focused */
+  .sbox select:focus {
+    border-color: #2E8B57;
+    box-shadow: 0 0 5px #062506; 
+    
+  }

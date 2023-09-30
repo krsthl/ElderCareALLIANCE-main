@@ -1,0 +1,188 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh; 
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url( background.jpg);
+    background-size: cover ; 
+    background-position: center; 
+    display: flex;
+}
+
+
+.qoute1 {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.qoute1 h1{
+    font-size: 38px;
+    color: #fff;
+    user-select: none;
+    font-weight:bolder;
+    margin-top:80px;
+    margin-left: 500px;
+}
+.qoute1 p{
+  
+    font-size: 20px;
+    color: #fff;
+    user-select: none;
+    font-style: italic;
+    font-weight: lighter;
+    margin:20px auto;
+    margin-left: 500px;
+}
+.signup {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.signup .btnDonate{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    background: #fff;
+    border:transparent;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    font-weight:bolder;
+    font-size: 20px;
+    color: #2E8B57;
+    margin-top:-30px;
+    margin-left:550px;
+}
+.signup .btnDonate:hover{
+    background: #2E8B57;
+    color: #fff;
+}
+.signup h1{
+    font-size: 15px;
+    color: #fff;
+    font-style: italic;
+    user-select: none;
+    font-weight:lighter;
+    margin-top:20px;
+    margin-left: 550px;
+}
+.signup .btnsignup{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background: transparent;
+    border:transparent;
+    outline: none;
+    cursor: pointer;
+    font-weight:lighter;
+    font-style: italic;
+    font-size: 15px;
+    color: #fff;
+    margin-top:-15px;
+    margin-left: 550px;
+}
+.signup .btnsignup:hover{
+    color: #2E8B57;
+    text-decoration: underline;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 20px 100px;
+    background: #2E8B57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+  }
+  .logo img{
+    user-select: none;
+    width: 50px;
+    height: auto;
+    margin-left: -50PX;
+    }
+    .address{
+    font-size: 12px;
+    color: #fff;
+    user-select: none;
+    font-style: italic;
+    font-weight: bold;
+    margin-left:-250px;
+    
+    }
+    .sub{
+    font-size: 1em;
+    color: #fff;
+    user-select: none;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-left:-100px;
+    
+    }
+.navigation{
+    margin-right: -120px;
+}
+.navigation a{
+    font-weight: bold;
+    position: relative;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0); 
+    transition: transform .5s;
+    
+}
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.navigation .btnLogin-popup{
+    width: 90px;
+    height: auto;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+    margin: 40px;
+    transition: .5s;
+
+}
+.navigation .btnLogin-popup:hover{
+    background: #fff;
+    color: #2E8B57;
+}
+
